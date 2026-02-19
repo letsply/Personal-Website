@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Calistoga-Regular';
+  src: url(../assets/Calistoga-Regular.ttf) format(truetype);
+} 
+
+html, body{
+   font-family: 'Calistoga-Regular';
+   background-color: rgb(255, 246, 143);
+   background-repeat: repeat;
+   background-size: cover;
+   margin: 0px;
+   background-image: url(../Assets/background.png);
+}
+
+.wilkommen {
+    position: absolute;
+    top: 90px; 
+    left: 5vw;
+    color:rgb(17, 17, 17);
+ }
+
+ .heroCopy {
+      top: 90px;
+      position: absolute;
+      width: 75vw;
+      color:rgb(17, 17, 17);
+  }
+
+h1{
+    font-weight: bold;
+    font-size:55px;
+}
+
+p{
+    font-size: 35px;
+}
+
+.link{
+    color:rgb(0, 16, 197)
+}
+
+.hoverSocials {
+  fill: red;
+}
+.hoverSocials2 {
+  fill: #6441A4  ;
+}
+.hoverSocials3 {
+  fill: #ffffff  ;
+}
+.hoverSocials:hover {
+  fill:rgb(89, 0, 0);
+}
+.hoverSocials2:hover {
+  fill: #342256 ;
+}
+.hoverSocials3:hover {
+  fill: #818181 ;
+}
+.sozialsContainer{
+  position: absolute;
+  bottom: 25vh;
+  left: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+.sozialsContent {
+    display: flex;
+  }
+a{
+  height: 0px;
+}
